@@ -1,6 +1,6 @@
 <template>
-    <a-layout-header>
-        <div></div>
+    <a-layout-header :class="[headerTheme, 'admin-header']">
+        <div :class="['']"></div>
     </a-layout-header>
 </template>
 
@@ -15,4 +15,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="less" scoped>
+@import 'index';
+</style>

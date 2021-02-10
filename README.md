@@ -1,33 +1,15 @@
-# vue-web
+# NPM 옵션 2가지
 
-## Project setup
+—save-dev
+현재 프로젝트의 “node_modules” 폴더에 선택된 모듈들을 설치하도록 한다.
+이 모듈들은 빌드시에만 사용되며 따라서 배포결과물에 추가되지 않는다.
 
-```
-yarn install
-```
+—save
+현재 프로젝트의 “node_modules” 폴더에 선택된 모듈들을 설치하도록 한다.
+이 모듈들은 빌드뿐만 아니라 실행시에도 사용되므로 배포결과물에 추가된다.
 
-### Compiles and hot-reloads for development
+# 필수 모듈 설치
 
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-
-```
-yarn build
-```
-
-### Lints and fixes files
-
-```
-yarn lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### Vue.js 로컬 서버 포트 변경
+# Vue.js 로컬 서버 포트 변경
 
 npm run serve -- --port 3000
